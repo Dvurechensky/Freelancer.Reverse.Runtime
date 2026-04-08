@@ -1,0 +1,8 @@
+LIBRARY dacom
+
+EXPORTS
+    DACOM_Acquire @11
+    DACOM_GetDllVersion @12
+    DACOM_GetVersion @13
+    FDUMP @14 DATA
+    stricmp=msvcrt._stricmp @15
