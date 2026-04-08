@@ -137,7 +137,7 @@ bool LoadOriginalDll()
 
 extern "C" void* FDUMP = NULL;
 
-// stdcall exports (РёРґСѓС‚ С‡РµСЂРµР· .def)
+// stdcall exports (идут через .def)
 
 extern "C" int __stdcall DACOM_Acquire()
 {
@@ -174,7 +174,7 @@ extern "C" unsigned long __stdcall DACOM_GetVersion()
     return g_DACOM_GetVersion();
 }
 
-// C++ exports: Р’РђР–РќРћ вЂ” СЌРєСЃРїРѕСЂС‚РёСЂСѓСЋС‚СЃСЏ СЂРµР°Р»СЊРЅС‹РјРё РјРµС‚РѕРґР°РјРё
+// C++ exports: ВАЖНО — экспортируются реальными методами
 
 namespace DACOM_CRC
 {
