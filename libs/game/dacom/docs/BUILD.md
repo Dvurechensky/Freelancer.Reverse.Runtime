@@ -24,3 +24,13 @@
 - Укажите свои адреса до папок в скрипте [`vc71_env.bat`](vc71_env.bat)
   - [x] set VC71=C:\Program Files (x86)\Microsoft Visual C++ Toolkit 2003
   - [x] set SDK=C:\Program Files\Microsoft Platform SDK for Windows Server 2003 R2\
+
+### Сборка после запуска окружения
+
+- Запустите [build.bat](../build.bat)
+
+```
+build.bat
+```
+
+- Появится папка `build` с `dacom.dll`
