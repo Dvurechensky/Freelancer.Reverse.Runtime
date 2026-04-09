@@ -1,3 +1,11 @@
+﻿/*
+ * Author: Nikolay Dvurechensky
+ * Site: https://dvurechensky.pro/
+ * Gmail: dvurechenskysoft@gmail.com
+ * Last Updated: 09 апреля 2026 16:14:24
+ * Version: 1.0.7
+ */
+
 #include <stdio.h>
 #include <stdarg.h>
 #include "logging.h"
