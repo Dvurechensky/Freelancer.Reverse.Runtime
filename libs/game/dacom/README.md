@@ -15,6 +15,7 @@
 - [x] Дампы
   - [x] [Дамп ассемблерного представления функций](docs/DUMP_ASM_FUNC.md)
   - [x] [Дамп Си представления функций](docs/DUMP_C_FUNC.md)
+- [x] [Папка с аналитической информацией](docs/analyse_data)
 - [x] Первые отчёты по запуску в клиенте и сервере
   - [x] [Клиент игры Freelancer (2003)](reports/client.start.ini)
   - [x] [Сервер игры Freelancer (2003)](reports/server.start.ini)
