@@ -11,6 +11,10 @@
 - [x] [Инструкция по сборке](docs/BUILD.md)
 - [x] [Экспортируемые функции](docs/EXPORTS.md)
 - [x] [Импортируемые функции](docs/IMPORTS.md)
+- [x] [Карта ссылок функций на Labels, Data Globals, функции](docs/MAP_LINKS.md)
+- [x] Дампы
+  - [x] [Дамп ассемблерного представления функций](docs/DUMP_ASM_FUNC.md)
+  - [x] [Дамп Си представления функций](docs/DUMP_C_FUNC.md)
 - [x] Первые отчёты по запуску в клиенте и сервере
   - [x] [Клиент игры Freelancer (2003)](reports/client.start.ini)
   - [x] [Сервер игры Freelancer (2003)](reports/server.start.ini)
