@@ -2,7 +2,7 @@
 
 # Freelancer.Reverse.Runtime
 
-### Я строю **runtime-слой поверх Freelancer (2003)**
+### I am building a **runtime layer on top of Freelancer (2003)**
 
 ![Status](https://shields.dvurechensky.pro/badge/status-active-2ea043)
 ![Stage](https://shields.dvurechensky.pro/badge/stage-runtime--reconstruction-1f6feb)
@@ -12,133 +12,146 @@
 
 </div>
 
+<div align="center" style="margin: 20px 0; padding: 10px; background: #1c1917; border-radius: 10px;">
+  <strong>🌐 Language: </strong>
+  
+  <a href="./README.ru.md" style="color: #F5F752; margin: 0 10px;">
+    🇷🇺 Russian
+  </a>
+  | 
+  <span style="color: #0891b2; margin: 0 10px;">
+    ✅ 🇺🇸 English (current)
+  </span>
+</div>
+
 ---
 
 > [!CAUTION]
-> Этот проект — не просто реверс отдельных функций.  
-> Я постепенно строю **собственный управляемый runtime-слой поверх оригинального движка Freelancer**.
+> This project is not just about reversing individual functions.  
+> I am gradually building a **custom managed runtime layer on top of the original Freelancer engine**.
 
 ---
 
 <div align="center">
-<h1> О проекте 🎇 </h1>
+<h1> About the Project 🎇 </h1>
 <img src="media/Freelancer.jpg"></img>
 <br><br><br>
 </div>
 
-`Freelancer (2003)` — `американская` видеоигра в жанре `космического` `торгового` и `боевого` `симулятора`, разработанная `Digital Anvil` и изданная Microsoft Game Studios `4 марта 2003 г`.
+`Freelancer (2003)` is an `American` `space` `trading` and `combat` `simulation` game developed by `Digital Anvil` and published by Microsoft Game Studios on `March 4, 2003`.
 
 > [!CAUTION]
-> Моя модификация игры `Freelancer (2003)` - [Lizerium](https://lizup.ru) | [Lizerium - исходники](https://github.com/Lizerium)
+> My modification of `Freelancer (2003)` — [Lizerium](https://lizup.ru) | [Lizerium - sources](https://github.com/Lizerium)
 
-Цель этого проекта — не просто анализировать оригинальные бинарники, а **постепенно восстанавливать, документировать и безопасно расширять поведение игры и сервера через совместимые proxy DLL, runtime-компоненты и reverse engineering**.
+The goal of this project is not just to analyze original binaries, but to **gradually reconstruct, document, and safely extend the behavior of the game and server using compatible proxy DLLs, runtime components, and reverse engineering**.
 
-Вместо хаотичного патчинга памяти я иду по более управляемому пути:  
-я создаю **совместимые системные модули**, которые можно:
+Instead of chaotic memory patching, I follow a more controlled approach:  
+I build **compatible system modules** that can:
 
-- подключать вместо оригинальных DLL
-- использовать как точку анализа поведения движка
-- расширять собственной логикой
-- постепенно превращать в понятный и контролируемый слой кода на C++
+- replace original DLLs
+- act as observation points for engine behavior
+- be extended with custom logic
+- evolve into a clean and controlled C++ layer
 
 > [!IMPORTANT]
-> За 20+ лет было создано множество плагинов-библиотек который внедряли новый функционал в игру, но они манипулировали памятью Freelancer (2003), я же хочу действовать не манипуляциями памяти, а универсально через свой исходный код, так как это надёжно и контролируемо.
+> Over the past 20+ years, many plugin libraries have been created to extend the game, but they relied on direct memory manipulation.  
+> My goal is to move away from that approach and build a **reliable, controlled system based on source code**.
 
 ---
 
-## Идея проекта
+## Project Idea
 
-Моя идея — **не ломать оригинальный движок**, а **строить вокруг него собственный инженерный слой**, который позволяет:
+The idea is **not to break the original engine**, but to **build an engineering layer around it** that allows:
 
-- понимать, как реально работает Freelancer изнутри
-- восстанавливать системные контракты DLL
-- безопасно внедрять новый функционал
-- документировать архитектуру старого движка
-- постепенно переводить “чёрный ящик” бинарников в **контролируемую C++-систему**
+- understanding how Freelancer actually works internally
+- reconstructing DLL system contracts
+- safely injecting new functionality
+- documenting the architecture of the legacy engine
+- transforming the “black box” binaries into a **controlled C++ system**
 
-По сути, это путь к **частичной реконструкции runtime-архитектуры Freelancer**.
+Essentially, this is a path toward **partial reconstruction of Freelancer’s runtime architecture**.
 
 > [!NOTE]
-> Я не пытаюсь “переписать игру с нуля”.  
-> Я строю **совместимый слой поведения**, который можно безопасно внедрять поверх оригинальных бинарников.
+> I am not trying to “rewrite the game from scratch”.  
+> I am building a **compatible behavior layer** that integrates with the original binaries.
 
 ---
 
-## Что уже реализовано
+## Current Progress
 
-На текущий момент проект уже перешёл из стадии “идеи” в **рабочее состояние**.
+The project has already moved beyond the idea stage into a **working state**.
 
-### Уже сделано
+### Completed
 
 #### `dacom.dll`
 
-- [x] создан рабочий proxy-модуль [`dacom.dll`](libs/game/dacom)
-  - [x] реализована загрузка оригинальной DLL через `dacom_addon.dll`
-  - [x] восстановлены и проксируются основные экспорты
-  - [x] добавлено логирование параметров вызовов
-  - [x] подтверждено, что DLL реально участвует в:
+- [x] created a working proxy module [`dacom.dll`](libs/game/dacom)
+  - [x] implemented loading of the original DLL via `dacom_addon.dll`
+  - [x] reconstructed and proxied core exports
+  - [x] added logging of function parameters
+  - [x] confirmed real participation in:
     - [x] CRC / string hashing
-    - [x] сравнении строк
-    - [x] внутреннем telemetry / logging слое
-    - [x] системной инициализации
+    - [x] string comparison
+    - [x] internal telemetry / logging layer
+    - [x] system initialization
 
-##### 👍 Проверено
+##### 👍 Verified
 
-- модуль успешно загружается игрой
-- экспортные функции вызываются корректно
-- прокси-реализация не ломает запуск
-- логирование подтверждает реальное участие `dacom.dll` в runtime-пайплайне клиента
-- новый модуль не совместим с плагинами которые манипулировали старой версией `dacom.dll`
+- module loads successfully in the game
+- exported functions are called correctly
+- proxy implementation does not break startup
+- logging confirms real runtime usage of `dacom.dll`
+- not compatible with legacy plugins relying on memory hacks
 
 > [!IMPORTANT]
-> `dacom.dll` уже не является просто “догадкой из реверса”.  
-> Это **подтверждённый рабочий runtime-компонент**, протестированный в реальном окружении игры.
+> `dacom.dll` is no longer just a reverse-engineered assumption.  
+> It is a **verified runtime component**, tested in a real game environment.
 
 ---
 
-## Подход проекта
+## Project Approach
 
 > [!TIP]
-> Ключевая идея проекта:
+> Core idea:
 >
-> **Снаружи — полная совместимость.  
-> Внутри — мой собственный управляемый код.**
+> **Externally — full compatibility.  
+> Internally — fully controlled custom code.**
 
 ---
 
-## Текущее направление
+## Current Direction
 
-Сейчас проект движется в сторону:
+The project is currently evolving towards:
 
-- восстановления других системных DLL
-- построения общей runtime-инфраструктуры
-- создания повторно используемых proxy-компонентов
-- формирования собственной reverse-документации по Freelancer
+- reconstructing other system DLLs
+- building a unified runtime infrastructure
+- creating reusable proxy components
+- forming a structured reverse-engineering documentation base
 
 > [!WARNING]
-> Это исследовательский и инженерный проект.  
-> Некоторые части архитектуры всё ещё находятся в стадии анализа и подтверждения через runtime-трассировку.
+> This is an experimental engineering project.  
+> Some parts of the architecture are still being validated through runtime tracing.
 
 ---
 
-## Текущие компоненты
+## Current Components
 
 ### Reverse / Proxy Modules
 
-- [`dacom`](libs/game/dacom) — рабочий proxy-модуль системной DLL, участвующей в CRC, string utilities и telemetry
+- [`dacom`](libs/game/dacom) — working proxy module for a system DLL involved in CRC, string utilities, and telemetry
 
-### Exist dll Hooks
+### Existing DLL Hooks
 
-- [`custom`](libs/custom) - папка в которой будет находиться мой набор хуков к модификации фрилансер который писал либо я либо другие авторы и было пересобрано мной, это необходимо для того чтобы встраивать в будущем функционал в `Reverse / Proxy Modules`
-
----
-
-## Идейная цель
-
-Моя долгосрочная цель — превратить закрытый runtime Freelancer в **документированную, исследуемую и частично управляемую C++-систему**, с которой можно работать уже не как с “чёрным ящиком”, а как с инженерной архитектурой.
+- [`custom`](libs/custom) — a collection of hooks for Freelancer modifications (written by me or others and rebuilt by me), intended for future integration into `Reverse / Proxy Modules`
 
 ---
 
-## Примечание
+## Vision
 
-Этот проект ведётся в исследовательских целях и не распространяет оригинальные игровые ресурсы или бинарные файлы Freelancer.
+The long-term goal is to transform Freelancer’s closed runtime into a **documented, researchable, and partially controllable C++ system**, enabling developers to work with it as an engineering architecture rather than a “black box”.
+
+---
+
+## Note
+
+This project is developed for research purposes and does not distribute original game assets or binaries.
