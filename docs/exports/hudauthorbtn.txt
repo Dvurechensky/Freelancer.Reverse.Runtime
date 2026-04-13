@@ -1,0 +1,12 @@
+Address=00410C84
+Type=Export
+Ordinal=2
+Symbol=__dbk_fcall_wrapper
+Address=0046BB34
+Type=Export
+Ordinal=3
+Symbol=TMethodImplementationIntercept
+Address=004D9640
+Type=Export
+Ordinal=1
+Symbol=dbkFCallWrapperAddr

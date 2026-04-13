@@ -1,0 +1,51 @@
+{
+  "file": "numeric.dll",
+  "raw_count": 4,
+  "clean_count": 4,
+  "exports": [
+    {
+      "address": "6AB011D0",
+      "rva": "000011D0",
+      "type": "Export",
+      "ordinal": 1,
+      "symbol": "Patch",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "6AB01290",
+      "rva": "00001290",
+      "type": "Export",
+      "ordinal": 2,
+      "symbol": "copy_damage",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "6AB01300",
+      "rva": "00001300",
+      "type": "Export",
+      "ordinal": 3,
+      "symbol": "display_damage",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "6AB04080",
+      "rva": "00004080",
+      "type": "Export",
+      "ordinal": 4,
+      "symbol": "dummy",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    }
+  ]
+}

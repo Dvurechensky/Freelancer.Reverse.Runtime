@@ -1,0 +1,29 @@
+{
+  "file": "storylvl.dll",
+  "raw_count": 2,
+  "clean_count": 2,
+  "exports": [
+    {
+      "address": "10001150",
+      "rva": "00001150",
+      "type": "Export",
+      "ordinal": 1,
+      "symbol": "CreateInstance",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "10001210",
+      "rva": "00001210",
+      "type": "Export",
+      "ordinal": 2,
+      "symbol": "DestroyInstance",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    }
+  ]
+}

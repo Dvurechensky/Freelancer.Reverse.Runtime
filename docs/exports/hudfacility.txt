@@ -1,0 +1,4 @@
+Address=004070B0
+Type=Export
+Ordinal=1
+Symbol=_IHudFacility

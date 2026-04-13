@@ -50,10 +50,10 @@ bool LoadOriginalDll()
 
     g_loadAttempted = true;
 
-    g_original = LoadLibraryA("dacom_addon.dll");
+    g_original = LoadLibraryA("legacy/dacom.dll");
     if (g_original == NULL)
     {
-        LogMessage("Failed to load dacom_addon.dll");
+        LogMessage("Failed to load legacy/dacom.dll");
         return false;
     }
 

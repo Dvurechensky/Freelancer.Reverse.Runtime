@@ -1,0 +1,8 @@
+Address=10001150
+Type=Export
+Ordinal=1
+Symbol=CreateInstance
+Address=10001210
+Type=Export
+Ordinal=2
+Symbol=DestroyInstance

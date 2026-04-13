@@ -1,0 +1,172 @@
+{
+  "file": "dacom.dll",
+  "raw_count": 15,
+  "clean_count": 14,
+  "exports": [
+    {
+      "address": "065B31D0",
+      "rva": "000031D0",
+      "type": "Export",
+      "ordinal": 11,
+      "symbol": "DACOM_Acquire",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "065B3320",
+      "rva": "00003320",
+      "type": "Export",
+      "ordinal": 12,
+      "symbol": "DACOM_GetDllVersion",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "065B3460",
+      "rva": "00003460",
+      "type": "Export",
+      "ordinal": 13,
+      "symbol": "DACOM_GetVersion",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "065B4380",
+      "rva": "00004380",
+      "type": "Export",
+      "ordinal": 4,
+      "symbol": "?GetCRC32@DACOM_CRC@@YAKPBD@Z",
+      "symbol_undecorated": "unsigned long __cdecl DACOM_CRC::GetCRC32(char const *)",
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "065B4390",
+      "rva": "00004390",
+      "type": "Export",
+      "ordinal": 3,
+      "symbol": "?GetCRC32@DACOM_CRC@@YAKPBD0@Z",
+      "symbol_undecorated": "unsigned long __cdecl DACOM_CRC::GetCRC32(char const *,char const *)",
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "065B43A0",
+      "rva": "000043A0",
+      "type": "Export",
+      "ordinal": 6,
+      "symbol": "?GetContinuedCRC32@DACOM_CRC@@YAKKPBD@Z",
+      "symbol_undecorated": "unsigned long __cdecl DACOM_CRC::GetContinuedCRC32(unsigned long,char const *)",
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "065B43B0",
+      "rva": "000043B0",
+      "type": "Export",
+      "ordinal": 5,
+      "symbol": "?GetContinuedCRC32@DACOM_CRC@@YAKKD@Z",
+      "symbol_undecorated": "unsigned long __cdecl DACOM_CRC::GetContinuedCRC32(unsigned long,char)",
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "065B43C0",
+      "rva": "000043C0",
+      "type": "Export",
+      "ordinal": 1,
+      "symbol": "?CompareStringsI@DACOM_CRC@@YAHPBD0@Z",
+      "symbol_undecorated": "int __cdecl DACOM_CRC::CompareStringsI(char const *,char const *)",
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "065B43D0",
+      "rva": "000043D0",
+      "type": "Export",
+      "ordinal": 9,
+      "symbol": "?Startup@LogStream@@YA_NPBD@Z",
+      "symbol_undecorated": "bool __cdecl LogStream::Startup(char const *)",
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "065B43E0",
+      "rva": "000043E0",
+      "type": "Export",
+      "ordinal": 2,
+      "symbol": "?FlushToDisk@LogStream@@YAXXZ",
+      "symbol_undecorated": "void __cdecl LogStream::FlushToDisk(void)",
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "065B43E0",
+      "rva": "000043E0",
+      "type": "Export",
+      "ordinal": 7,
+      "symbol": "?LogEvent@LogStream@@YAXPBDMK@Z",
+      "symbol_undecorated": "void __cdecl LogStream::LogEvent(char const *,float,unsigned long)",
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "065B43E0",
+      "rva": "000043E0",
+      "type": "Export",
+      "ordinal": 8,
+      "symbol": "?LogNamedEvent@LogStream@@YAXPBD0K@Z",
+      "symbol_undecorated": "void __cdecl LogStream::LogNamedEvent(char const *,char const *,unsigned long)",
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "065B43E0",
+      "rva": "000043E0",
+      "type": "Export",
+      "ordinal": 10,
+      "symbol": "?Update@LogStream@@YAXM@Z",
+      "symbol_undecorated": "void __cdecl LogStream::Update(float)",
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "065B5E60",
+      "rva": "00005E60",
+      "type": "Export",
+      "ordinal": 15,
+      "symbol": "stricmp",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": false,
+      "reason": "crt_forward_name"
+    },
+    {
+      "address": "065B8A34",
+      "rva": "00008A34",
+      "type": "Export",
+      "ordinal": 14,
+      "symbol": "FDUMP",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    }
+  ]
+}

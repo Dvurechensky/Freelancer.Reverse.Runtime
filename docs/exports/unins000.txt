@@ -1,0 +1,8 @@
+Address=00411C18
+Type=Export
+Ordinal=2
+Symbol=__dbk_fcall_wrapper
+Address=006BB648
+Type=Export
+Ordinal=1
+Symbol=dbkFCallWrapperAddr

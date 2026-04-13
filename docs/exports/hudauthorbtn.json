@@ -1,0 +1,40 @@
+{
+  "file": "hudauthorbtn.dll",
+  "raw_count": 3,
+  "clean_count": 3,
+  "exports": [
+    {
+      "address": "00410C84",
+      "rva": "00010C84",
+      "type": "Export",
+      "ordinal": 2,
+      "symbol": "__dbk_fcall_wrapper",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "0046BB34",
+      "rva": "0006BB34",
+      "type": "Export",
+      "ordinal": 3,
+      "symbol": "TMethodImplementationIntercept",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "004D9640",
+      "rva": "000D9640",
+      "type": "Export",
+      "ordinal": 1,
+      "symbol": "dbkFCallWrapperAddr",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    }
+  ]
+}

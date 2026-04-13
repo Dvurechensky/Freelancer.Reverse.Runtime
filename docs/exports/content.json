@@ -1,0 +1,84 @@
+{
+  "file": "content.dll",
+  "raw_count": 7,
+  "clean_count": 7,
+  "exports": [
+    {
+      "address": "06EA1650",
+      "rva": "00001650",
+      "type": "Export",
+      "ordinal": 3,
+      "symbol": "??1IDLL@@UAE@XZ",
+      "symbol_undecorated": "public: virtual __thiscall IDLL::~IDLL(void)",
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "06EEEC50",
+      "rva": "0004EC50",
+      "type": "Export",
+      "ordinal": 6,
+      "symbol": "CreateInstance",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "06EEF180",
+      "rva": "0004F180",
+      "type": "Export",
+      "ordinal": 7,
+      "symbol": "DestroyInstance",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "06F38ED0",
+      "rva": "00098ED0",
+      "type": "Export",
+      "ordinal": 2,
+      "symbol": "??0IDLL@@QAE@XZ",
+      "symbol_undecorated": "public: __thiscall IDLL::IDLL(void)",
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "06F38EE0",
+      "rva": "00098EE0",
+      "type": "Export",
+      "ordinal": 1,
+      "symbol": "??0IDLL@@QAE@ABU0@@Z",
+      "symbol_undecorated": "public: __thiscall IDLL::IDLL(struct IDLL const &)",
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "06F38EF0",
+      "rva": "00098EF0",
+      "type": "Export",
+      "ordinal": 4,
+      "symbol": "??4IDLL@@QAEAAU0@ABU0@@Z",
+      "symbol_undecorated": "public: struct IDLL & __thiscall IDLL::operator=(struct IDLL const &)",
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "06FB385C",
+      "rva": "0011385C",
+      "type": "Export",
+      "ordinal": 5,
+      "symbol": "??_7IDLL@@6B@",
+      "symbol_undecorated": "const IDLL::`vftable'",
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    }
+  ]
+}

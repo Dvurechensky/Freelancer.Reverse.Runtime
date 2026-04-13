@@ -1,0 +1,4 @@
+Address=10002050
+Type=Export
+Ordinal=1
+Symbol=EBUEula

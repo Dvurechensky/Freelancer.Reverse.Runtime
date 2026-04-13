@@ -1,0 +1,84 @@
+{
+  "file": "movie.dll",
+  "raw_count": 7,
+  "clean_count": 7,
+  "exports": [
+    {
+      "address": "06AC1710",
+      "rva": "00001710",
+      "type": "Export",
+      "ordinal": 5,
+      "symbol": "?Startup@MediaPlayer@@YAXXZ",
+      "symbol_undecorated": "void __cdecl MediaPlayer::Startup(void)",
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "06AC1730",
+      "rva": "00001730",
+      "type": "Export",
+      "ordinal": 7,
+      "symbol": "?UpdateMovie@MediaPlayer@@YA_NXZ",
+      "symbol_undecorated": "bool __cdecl MediaPlayer::UpdateMovie(void)",
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "06AC1770",
+      "rva": "00001770",
+      "type": "Export",
+      "ordinal": 6,
+      "symbol": "?StopMovie@MediaPlayer@@YAXXZ",
+      "symbol_undecorated": "void __cdecl MediaPlayer::StopMovie(void)",
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "06AC1790",
+      "rva": "00001790",
+      "type": "Export",
+      "ordinal": 2,
+      "symbol": "?PlayMovie@MediaPlayer@@YAJPAUHWND__@@_NPBD@Z",
+      "symbol_undecorated": "long __cdecl MediaPlayer::PlayMovie(struct HWND__ *,bool,char const *)",
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "06AC19B0",
+      "rva": "000019B0",
+      "type": "Export",
+      "ordinal": 1,
+      "symbol": "?FreeMovie@MediaPlayer@@YAXXZ",
+      "symbol_undecorated": "void __cdecl MediaPlayer::FreeMovie(void)",
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "06AC1A00",
+      "rva": "00001A00",
+      "type": "Export",
+      "ordinal": 4,
+      "symbol": "?Shutdown@MediaPlayer@@YAXXZ",
+      "symbol_undecorated": "void __cdecl MediaPlayer::Shutdown(void)",
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "06AC1A70",
+      "rva": "00001A70",
+      "type": "Export",
+      "ordinal": 3,
+      "symbol": "?SetApproach@MediaPlayer@@YAXW4Approach@1@@Z",
+      "symbol_undecorated": "void __cdecl MediaPlayer::SetApproach(enum MediaPlayer::Approach)",
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    }
+  ]
+}

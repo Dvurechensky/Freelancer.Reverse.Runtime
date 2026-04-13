@@ -1,0 +1,16 @@
+Address=70029920
+Type=Export
+Ordinal=3
+Symbol=_IINI
+Address=70029948
+Type=Export
+Ordinal=2
+Symbol=_IBINI
+Address=70029970
+Type=Export
+Ordinal=1
+Symbol=_IXINI
+Address=70029EF0
+Type=Export
+Ordinal=4
+Symbol=_IFLHASH

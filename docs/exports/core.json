@@ -1,0 +1,51 @@
+{
+  "file": "core.dll",
+  "raw_count": 4,
+  "clean_count": 4,
+  "exports": [
+    {
+      "address": "70029920",
+      "rva": "00029920",
+      "type": "Export",
+      "ordinal": 3,
+      "symbol": "_IINI",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "70029948",
+      "rva": "00029948",
+      "type": "Export",
+      "ordinal": 2,
+      "symbol": "_IBINI",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "70029970",
+      "rva": "00029970",
+      "type": "Export",
+      "ordinal": 1,
+      "symbol": "_IXINI",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "70029EF0",
+      "rva": "00029EF0",
+      "type": "Export",
+      "ordinal": 4,
+      "symbol": "_IFLHASH",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    }
+  ]
+}

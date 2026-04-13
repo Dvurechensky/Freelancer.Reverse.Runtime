@@ -1,0 +1,29 @@
+{
+  "file": "unins000.exe",
+  "raw_count": 2,
+  "clean_count": 2,
+  "exports": [
+    {
+      "address": "00411C18",
+      "rva": "00011C18",
+      "type": "Export",
+      "ordinal": 2,
+      "symbol": "__dbk_fcall_wrapper",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "006BB648",
+      "rva": "002BB648",
+      "type": "Export",
+      "ordinal": 1,
+      "symbol": "dbkFCallWrapperAddr",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    }
+  ]
+}

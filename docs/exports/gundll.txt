@@ -1,0 +1,16 @@
+Address=10001020
+Type=Export
+Ordinal=1
+Symbol=DllRegisterServer
+Address=10001030
+Type=Export
+Ordinal=2
+Symbol=DllUnregisterServer
+Address=100010A0
+Type=Export
+Ordinal=3
+Symbol=DllCanUnloadNow
+Address=100010B0
+Type=Export
+Ordinal=4
+Symbol=DllGetClassObject

@@ -1,0 +1,18 @@
+{
+  "file": "ebueula.dll",
+  "raw_count": 1,
+  "clean_count": 1,
+  "exports": [
+    {
+      "address": "10002050",
+      "rva": "00002050",
+      "type": "Export",
+      "ordinal": 1,
+      "symbol": "EBUEula",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    }
+  ]
+}

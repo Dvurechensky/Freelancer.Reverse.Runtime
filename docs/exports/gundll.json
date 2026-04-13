@@ -1,0 +1,51 @@
+{
+  "file": "gundll.dll",
+  "raw_count": 4,
+  "clean_count": 4,
+  "exports": [
+    {
+      "address": "10001020",
+      "rva": "00001020",
+      "type": "Export",
+      "ordinal": 1,
+      "symbol": "DllRegisterServer",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "10001030",
+      "rva": "00001030",
+      "type": "Export",
+      "ordinal": 2,
+      "symbol": "DllUnregisterServer",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "100010A0",
+      "rva": "000010A0",
+      "type": "Export",
+      "ordinal": 3,
+      "symbol": "DllCanUnloadNow",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "100010B0",
+      "rva": "000010B0",
+      "type": "Export",
+      "ordinal": 4,
+      "symbol": "DllGetClassObject",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    }
+  ]
+}

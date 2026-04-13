@@ -1,0 +1,29 @@
+{
+  "file": "hudshift.dll",
+  "raw_count": 2,
+  "clean_count": 2,
+  "exports": [
+    {
+      "address": "10001A00",
+      "rva": "00001A00",
+      "type": "Export",
+      "ordinal": 1,
+      "symbol": "CreateInstance",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    },
+    {
+      "address": "10001A20",
+      "rva": "00001A20",
+      "type": "Export",
+      "ordinal": 2,
+      "symbol": "DestroyInstance",
+      "symbol_undecorated": null,
+      "forwarder": null,
+      "is_clean": true,
+      "reason": null
+    }
+  ]
+}
