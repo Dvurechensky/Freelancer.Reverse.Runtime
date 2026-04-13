@@ -1,121 +1,132 @@
-# DACOM
+<h1 align="center"> Digital Anvil Common (dacom.dll) </h1>
 
-Я занимаюсь реконструкцией `dacom.dll` — одной из ключевых библиотек, использовавшихся в оригинальной игре **Freelancer (2003)**.
+<div align="center" style="margin: 20px 0; padding: 10px; background: #1c1917; border-radius: 10px;">
+  <strong>🌐 Language: </strong>
+  
+  <a href="./README.ru.md" style="color: #F5F752; margin: 0 10px;">
+    🇷🇺 Russian
+  </a>
+  | 
+  <span style="color: #0891b2; margin: 0 10px;">
+    ✅ 🇺🇸 English (current)
+  </span>
+</div>
 
-В процессе реверса и анализа поведения в рантайме стало понятно, что это **не просто DLL для получения версии**, как могло показаться изначально.
+I am reconstructing `dacom.dll` — one of the core libraries used in the original **Freelancer (2003)** engine.
 
-`dacom.dll` — это **общая системная библиотека**, которая используется как клиентом, так и сервером.
+During reverse engineering and runtime analysis, it became clear that this is **not just a simple version-related DLL**, as it might initially appear.
+
+`dacom.dll` is a **shared system library** used by both the client and the server.
 
 ---
 
-- [x] [Инструкция по сборке](docs/BUILD.md)
-- [x] [Экспортируемые функции](docs/EXPORTS.md)
-- [x] [Импортируемые функции](docs/IMPORTS.md)
-- [x] [Карта ссылок функций на Labels, Data Globals, функции](docs/MAP_LINKS.md)
-- [x] Дампы
-  - [x] [Дамп ассемблерного представления функций](docs/DUMP_ASM_FUNC.md)
-  - [x] [Дамп Си представления функций](docs/DUMP_C_FUNC.md)
-- [x] [Папка с аналитической информацией](docs/analyse_data)
-- [x] Первые отчёты по запуску в клиенте и сервере
-  - [x] [Клиент игры Freelancer (2003)](reports/client.start.ini)
-  - [x] [Сервер игры Freelancer (2003)](reports/server.start.ini)
+- [x] [Build instructions](../../docs/BUILD.md)
+- [x] [Exported functions](docs/EXPORTS.md)
+- [x] [Imported functions](docs/IMPORTS.md)
+- [x] [Function reference map (labels, globals, calls)](docs/MAP_LINKS.md)
+- [x] Dumps
+  - [x] [Assembly function dump](docs/DUMP_ASM_FUNC.md)
+  - [x] [C function dump](docs/DUMP_C_FUNC.md)
+
+- [x] [Analysis data](docs/analyse_data)
+- [x] Initial runtime reports
+  - [x] [Game client](reports/client.start.ini)
+  - [x] [Game server](reports/server.start.ini)
 
 > [!CAUTION]
-> Этот `dacom.dll` не поддерживает старые плагины которые внедрялись в память процесса
+> This implementation does **not support legacy plugins** that rely on in-memory injection.
 
-## Что я уже выяснил
+---
 
-На текущий момент удалось установить, что библиотека выполняет несколько важных ролей:
+## What has been discovered
 
-### 1. CRC / хеширование строк
+At this stage, the library is confirmed to perform several critical roles:
 
-Библиотека активно используется для:
+---
 
-- хеширования строк (например: `HUD_targetingelement`, `*.tga`)
-- работы с ресурсами (текстуры, UI, элементы интерфейса)
-- быстрого сравнения строк через CRC вместо `strcmp`
+### 1. CRC / String hashing
 
-Пример из логов запуска клиента `Freelancer (2003)`:
+The library is heavily used for:
+
+- hashing strings (e.g. `HUD_targetingelement`, `*.tga`)
+- resource handling (textures, UI elements)
+- fast string comparison via CRC instead of `strcmp`
+
+Example from client startup logs:
 
 ```
-
 GetCRC32 called with parameter: data = HUD_targetingelement
 GetCRC32 called with parameter: data = backgroundpattern.tga
-
 ```
 
-Это означает, что движок использует CRC как ключи для:
+This indicates that CRC is used as keys for:
 
-- поиска ресурсов
-- сопоставления данных
-- внутренних таблиц
+- resource lookup
+- data mapping
+- internal tables
 
 ---
 
 ### 2. Incremental CRC
 
-Есть функции:
+Available functions:
 
 - `GetContinuedCRC32(crc, data)`
 - `GetContinuedCRC32(crc, char)`
 
-Это говорит о том, что CRC может считаться по частям — например:
+This suggests CRC is computed incrementally, which is useful for:
 
-- при потоковой обработке данных
-- при сборке строк
-- при парсинге конфигов
+- streaming data processing
+- string construction
+- config parsing
 
 ---
 
-### 3. Case-insensitive сравнение
+### 3. Case-insensitive comparison
 
 ```
-
 CompareStringsI(const char*, const char*)
-
 ```
 
-С высокой вероятностью внутри используется таблица нормализации ASCII (A → a).
+Most likely implemented using ASCII normalization (A → a).
 
-Это важно для:
+This is important for:
 
-- имён ресурсов
-- nickname-ов
-- конфигов
+- resource names
+- nicknames
+- configuration files
 
 ---
 
-### 4. Telemetry / логирование движка
+### 4. Engine telemetry / logging
 
-В библиотеке есть подсистема `LogStream`, которая используется для внутренних событий:
+The library includes a `LogStream` subsystem for internal engine events.
 
-Пример:
+Example:
 
 ```
-
 LogEvent called with parameters: message = Memory_VMeshData, value = -420.09, code = 1552
-
 ```
 
-Это означает, что:
+This suggests:
 
-- ведётся учёт памяти
-- отслеживаются подсистемы движка (например, меши)
-- возможно есть внутренняя система профилирования
-
----
-
-### 5. Инициализация и системные функции
-
-Экспортируются:
-
-- `DACOM_Acquire` — инициализация/получение глобального объекта
-- `DACOM_GetDllVersion` — версия DLL
-- `DACOM_GetVersion` — альтернативная версия (возможно packed)
+- memory tracking
+- subsystem monitoring (e.g. meshes)
+- possible internal profiling system
 
 ---
 
-## Архитектура (на текущий момент)
+### 5. Initialization and system functions
+
+Exports include:
+
+- `DACOM_Acquire` — initialization / global access point
+- `DACOM_GetDllVersion` — DLL version
+- `DACOM_GetVersion` — alternative (possibly packed) version
+
+---
+
+## Current architecture
 
 ```cpp
 namespace DACOM_CRC
@@ -144,41 +155,41 @@ extern "C"
 
 ---
 
-## Где используется
+## Where it is used
 
-### Клиент
+### Client
 
-- загрузка ресурсов (текстуры, UI)
-- работа с именами элементов
-- логирование состояния движка
-- возможно работа с конфигами
+- resource loading (textures, UI)
+- element naming
+- engine state logging
+- possibly config handling
 
-### Сервер
+### Server
 
-- CRC для строк / идентификаторов
-- инициализация
-- возможно логирование
+- CRC for identifiers / strings
+- initialization
+- possible logging
 
 ---
 
-## Критически важные функции
+## Critical functions
 
-Если делать совместимую реализацию, **обязательно должны совпадать**:
+For compatibility, the following must behave **exactly**:
 
 - `GetCRC32`
 - `GetContinuedCRC32`
 - `CompareStringsI`
 - `DACOM_Acquire`
 
-Если CRC будет отличаться — система может:
+If CRC behavior differs, the system may:
 
-- не находить ресурсы
-- неправильно сопоставлять данные
-- работать нестабильно без явных ошибок
+- fail to locate resources
+- mismatch internal data
+- behave unpredictably without obvious errors
 
 ---
 
-## Менее критичные (но лучше реализовать)
+## Secondary (but recommended)
 
 - `LogEvent`
 - `LogNamedEvent`
@@ -186,55 +197,55 @@ extern "C"
 - `FlushToDisk`
 - `Update`
 
-Их можно временно заглушить, но лучше сохранить поведение.
+These can be stubbed initially, but proper implementation is preferred.
 
 ---
 
-## Что я делаю сейчас
+## Current approach
 
-Я использую прокси-DLL, которая:
+A proxy DLL is used to:
 
-- подгружает оригинальную `dacom_addon.dll`
-- проксирует все вызовы
-- логирует параметры и поведение
+- load the original `dacom_addon.dll`
+- forward all calls
+- log parameters and behavior
 
-Это позволяет:
+This allows:
 
-- понять реальное назначение функций
-- собрать статистику использования
-- восстановить поведение без догадок
-
----
-
-## Цель проекта
-
-Полностью восстановить поведение `dacom.dll`:
-
-- без оригинальных бинарников
-- с сохранением совместимости
-- с пониманием внутренней логики
+- understanding real function usage
+- collecting runtime statistics
+- reconstructing behavior without guesswork
 
 ---
 
-## Предположение
+## Goal
 
-С высокой вероятностью:
+Fully reconstruct `dacom.dll`:
+
+- without original binaries
+- with full compatibility
+- with a clear understanding of internal logic
+
+---
+
+## Hypothesis
+
+Most likely:
 
 **DACOM = Digital Anvil Common**
 
-То есть это общая библиотека, используемая во всех частях движка.
+A shared library used across the engine.
 
 ---
 
-## Статус
+## Status
 
-🟡 В процессе реверса и анализа
-🟢 Основные функции уже идентифицированы
-🔴 Полная реконструкция ещё не завершена
+🟡 Reverse engineering in progress
+🟢 Core functions identified
+🔴 Full reconstruction not yet complete
 
 ---
 
-## Примечание
+## Note
 
-Этот проект делается в исследовательских целях.
-Оригинальная игра Freelancer не распространяется через данный репозиторий.
+This project is for research purposes only.
+The original **Freelancer (2003)** game is not distributed as part of this repository.

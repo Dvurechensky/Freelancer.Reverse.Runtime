@@ -1,8 +1,8 @@
 pre_commit.ps1
 pre_commit.log
-libs/game/dacom/build
-libs/game/dacom/addon
-libs/game/dacom/WHAT.md
+build
+addon
+WHAT.md
 scripts
 
 # The following command works for downloading when using Git for Windows:
