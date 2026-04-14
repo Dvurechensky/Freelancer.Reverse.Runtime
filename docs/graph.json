@@ -1,860 +1,5017 @@
 {
   "nodes": [
     {
+      "id": "alchemy.dll",
+      "type": "dll",
+      "degree": 2,
+      "degree_static": 1,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "alchemy.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "ammolimit.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "ammolimit.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "apphelp.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "apphelp.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "appresolver.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "appresolver.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "audioses.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "audioses.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "bcp47langs.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "bcp47langs.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "bcryptprimitives.dll",
+      "type": "dll",
+      "degree": 3,
+      "degree_static": 0,
+      "degree_runtime": 3,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "bcryptprimitives.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "burnship.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "burnship.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "callsign.dll",
+      "type": "dll",
+      "degree": 0,
+      "degree_static": 0,
+      "degree_runtime": 0,
+      "export_count": 2,
+      "export_raw_count": 2,
+      "has_api": true,
+      "color": "#52c41a",
+      "label": "callsign.dll\n2 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "cfgmgr32.dll",
+      "type": "dll",
+      "degree": 2,
+      "degree_static": 0,
+      "degree_runtime": 2,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "cfgmgr32.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "chatrep.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "chatrep.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "chatrepsrv.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "chatrepsrv.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "chklootvol.dll",
+      "type": "dll",
+      "degree": 2,
+      "degree_static": 0,
+      "degree_runtime": 2,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "chklootvol.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "clbcatq.dll",
+      "type": "dll",
+      "degree": 3,
+      "degree_static": 0,
+      "degree_runtime": 3,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "clbcatq.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "cldapi.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "cldapi.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "cloak.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "cloak.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
       "id": "common.dll",
-      "degree": 11,
+      "type": "dll",
+      "degree": 12,
+      "degree_static": 11,
+      "degree_runtime": 1,
       "export_count": 3859,
       "export_raw_count": 3859,
       "has_api": true,
       "color": "#ff4d4f",
-      "label": "common.dll\n3859 exp"
+      "label": "common.dll\n3859 exp",
+      "is_runtime_only": false
     },
     {
-      "id": "ximage.dll",
+      "id": "console.dll",
+      "type": "dll",
       "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
       "export_count": 0,
       "export_raw_count": 0,
       "has_api": false,
       "color": "#595959",
-      "label": "ximage.dll\n0 exp"
+      "label": "console.dll\n0 exp",
+      "is_runtime_only": true
     },
     {
-      "id": "equipresources.dll",
-      "degree": 0,
-      "export_count": 0,
-      "export_raw_count": 0,
-      "has_api": false,
-      "color": "#595959",
-      "label": "equipresources.dll\n0 exp"
-    },
-    {
-      "id": "unins000.exe",
-      "degree": 7,
-      "export_count": 2,
-      "export_raw_count": 2,
+      "id": "content.dll",
+      "type": "dll",
+      "degree": 3,
+      "degree_static": 3,
+      "degree_runtime": 0,
+      "export_count": 7,
+      "export_raw_count": 7,
       "has_api": true,
-      "color": "#52c41a",
-      "label": "unins000.exe\n2 exp"
+      "color": "#fadb14",
+      "label": "content.dll\n7 exp",
+      "is_runtime_only": false
     },
     {
-      "id": "infocards.dll",
+      "id": "core.dll",
+      "type": "dll",
       "degree": 0,
-      "export_count": 0,
-      "export_raw_count": 0,
-      "has_api": false,
-      "color": "#595959",
-      "label": "infocards.dll\n0 exp"
-    },
-    {
-      "id": "multirepair.dll",
-      "degree": 1,
-      "export_count": 0,
-      "export_raw_count": 0,
-      "has_api": false,
-      "color": "#595959",
-      "label": "multirepair.dll\n0 exp"
-    },
-    {
-      "id": "soundstreamer.dll",
-      "degree": 1,
-      "export_count": 0,
-      "export_raw_count": 0,
-      "has_api": false,
-      "color": "#595959",
-      "label": "soundstreamer.dll\n0 exp"
-    },
-    {
-      "id": "resources.dll",
-      "degree": 0,
-      "export_count": 0,
-      "export_raw_count": 0,
-      "has_api": false,
-      "color": "#595959",
-      "label": "resources.dll\n0 exp"
-    },
-    {
-      "id": "misctext.dll",
-      "degree": 0,
-      "export_count": 0,
-      "export_raw_count": 0,
-      "has_api": false,
-      "color": "#595959",
-      "label": "misctext.dll\n0 exp"
-    },
-    {
-      "id": "dinput8.dll",
-      "degree": 1,
-      "export_count": 0,
-      "export_raw_count": 0,
-      "has_api": false,
-      "color": "#595959",
-      "label": "dinput8.dll\n0 exp"
-    },
-    {
-      "id": "dxwrapper.dll",
-      "degree": 0,
-      "export_count": 984,
-      "export_raw_count": 984,
-      "has_api": true,
-      "color": "#ff4d4f",
-      "label": "dxwrapper.dll\n984 exp"
-    },
-    {
-      "id": "alchemy.dll",
-      "degree": 1,
-      "export_count": 0,
-      "export_raw_count": 0,
-      "has_api": false,
-      "color": "#595959",
-      "label": "alchemy.dll\n0 exp"
-    },
-    {
-      "id": "dalib.dll",
-      "degree": 8,
-      "export_count": 163,
-      "export_raw_count": 163,
-      "has_api": true,
-      "color": "#ff4d4f",
-      "label": "dalib.dll\n163 exp"
-    },
-    {
-      "id": "rendcomp.dll",
-      "degree": 1,
-      "export_count": 0,
-      "export_raw_count": 0,
-      "has_api": false,
-      "color": "#595959",
-      "label": "rendcomp.dll\n0 exp"
-    },
-    {
-      "id": "dwmapi.dll",
-      "degree": 1,
-      "export_count": 0,
-      "export_raw_count": 0,
-      "has_api": false,
-      "color": "#595959",
-      "label": "dwmapi.dll\n0 exp"
-    },
-    {
-      "id": "dacom.dll",
-      "degree": 24,
-      "export_count": 14,
-      "export_raw_count": 15,
-      "has_api": true,
-      "color": "#fa8c16",
-      "label": "dacom.dll\n14 exp"
-    },
-    {
-      "id": "hudshift.dll",
-      "degree": 1,
-      "export_count": 2,
-      "export_raw_count": 2,
-      "has_api": true,
-      "color": "#52c41a",
-      "label": "hudshift.dll\n2 exp"
-    },
-    {
-      "id": "imeui.dll",
-      "degree": 1,
-      "export_count": 85,
-      "export_raw_count": 85,
-      "has_api": true,
-      "color": "#ff4d4f",
-      "label": "imeui.dll\n85 exp"
-    },
-    {
-      "id": "gundll.dll",
-      "degree": 0,
+      "degree_static": 0,
+      "degree_runtime": 0,
       "export_count": 4,
       "export_raw_count": 4,
       "has_api": true,
       "color": "#fadb14",
-      "label": "gundll.dll\n4 exp"
+      "label": "core.dll\n4 exp",
+      "is_runtime_only": false
     },
     {
-      "id": "sbm2.dll",
-      "degree": 0,
+      "id": "coreuicomponents.dll",
+      "type": "dll",
+      "degree": 3,
+      "degree_static": 0,
+      "degree_runtime": 3,
       "export_count": 0,
       "export_raw_count": 0,
       "has_api": false,
       "color": "#595959",
-      "label": "sbm2.dll\n0 exp"
+      "label": "coreuicomponents.dll\n0 exp",
+      "is_runtime_only": true
     },
     {
-      "id": "callsign.dll",
-      "degree": 0,
-      "export_count": 2,
-      "export_raw_count": 2,
-      "has_api": true,
-      "color": "#52c41a",
-      "label": "callsign.dll\n2 exp"
-    },
-    {
-      "id": "misctextinfo2.dll",
-      "degree": 0,
-      "export_count": 0,
-      "export_raw_count": 0,
-      "has_api": false,
-      "color": "#595959",
-      "label": "misctextinfo2.dll\n0 exp"
-    },
-    {
-      "id": "winhttp.dll",
-      "degree": 1,
-      "export_count": 0,
-      "export_raw_count": 0,
-      "has_api": false,
-      "color": "#595959",
-      "label": "winhttp.dll\n0 exp"
-    },
-    {
-      "id": "nameresources.dll",
-      "degree": 0,
-      "export_count": 0,
-      "export_raw_count": 0,
-      "has_api": false,
-      "color": "#595959",
-      "label": "nameresources.dll\n0 exp"
-    },
-    {
-      "id": "serverresources.dll",
-      "degree": 0,
-      "export_count": 0,
-      "export_raw_count": 0,
-      "has_api": false,
-      "color": "#595959",
-      "label": "serverresources.dll\n0 exp"
-    },
-    {
-      "id": "deformable2.dll",
-      "degree": 1,
-      "export_count": 0,
-      "export_raw_count": 0,
-      "has_api": false,
-      "color": "#595959",
-      "label": "deformable2.dll\n0 exp"
-    },
-    {
-      "id": "thorn.dll",
-      "degree": 1,
-      "export_count": 0,
-      "export_raw_count": 0,
-      "has_api": false,
-      "color": "#595959",
-      "label": "thorn.dll\n0 exp"
-    },
-    {
-      "id": "remoteserver.dll",
+      "id": "criticalhit.dll",
+      "type": "dll",
       "degree": 2,
-      "export_count": 125,
-      "export_raw_count": 125,
-      "has_api": true,
-      "color": "#ff4d4f",
-      "label": "remoteserver.dll\n125 exp"
-    },
-    {
-      "id": "soundmanager.dll",
-      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 2,
       "export_count": 0,
       "export_raw_count": 0,
       "has_api": false,
       "color": "#595959",
-      "label": "soundmanager.dll\n0 exp"
+      "label": "criticalhit.dll\n0 exp",
+      "is_runtime_only": true
     },
     {
-      "id": "ddraw.dll",
-      "degree": 1,
+      "id": "crypt32.dll",
+      "type": "dll",
+      "degree": 2,
+      "degree_static": 1,
+      "degree_runtime": 1,
       "export_count": 0,
       "export_raw_count": 0,
       "has_api": false,
       "color": "#595959",
-      "label": "ddraw.dll\n0 exp"
+      "label": "crypt32.dll\n0 exp",
+      "is_runtime_only": true
     },
     {
-      "id": "wtsapi32.dll",
+      "id": "cryptsp.dll",
+      "type": "dll",
       "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
       "export_count": 0,
       "export_raw_count": 0,
       "has_api": false,
       "color": "#595959",
-      "label": "wtsapi32.dll\n0 exp"
+      "label": "cryptsp.dll\n0 exp",
+      "is_runtime_only": true
     },
     {
-      "id": "sbm3.dll",
-      "degree": 0,
+      "id": "d3d11.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
       "export_count": 0,
       "export_raw_count": 0,
       "has_api": false,
       "color": "#595959",
-      "label": "sbm3.dll\n0 exp"
+      "label": "d3d11.dll\n0 exp",
+      "is_runtime_only": true
     },
     {
-      "id": "system.dll",
-      "degree": 1,
+      "id": "d3d8.dll",
+      "type": "dll",
+      "degree": 3,
+      "degree_static": 1,
+      "degree_runtime": 2,
       "export_count": 0,
       "export_raw_count": 0,
       "has_api": false,
       "color": "#595959",
-      "label": "system.dll\n0 exp"
+      "label": "d3d8.dll\n0 exp",
+      "is_runtime_only": true
     },
     {
-      "id": "uxtheme.dll",
-      "degree": 1,
+      "id": "d3d8thk.dll",
+      "type": "dll",
+      "degree": 3,
+      "degree_static": 0,
+      "degree_runtime": 3,
       "export_count": 0,
       "export_raw_count": 0,
       "has_api": false,
       "color": "#595959",
-      "label": "uxtheme.dll\n0 exp"
-    },
-    {
-      "id": "zlib.dll",
-      "degree": 1,
-      "export_count": 65,
-      "export_raw_count": 65,
-      "has_api": true,
-      "color": "#ff4d4f",
-      "label": "zlib.dll\n65 exp"
-    },
-    {
-      "id": "hud.dll",
-      "degree": 0,
-      "export_count": 1,
-      "export_raw_count": 1,
-      "has_api": true,
-      "color": "#52c41a",
-      "label": "hud.dll\n1 exp"
+      "label": "d3d8thk.dll\n0 exp",
+      "is_runtime_only": true
     },
     {
       "id": "d3d9.dll",
+      "type": "dll",
       "degree": 0,
+      "degree_static": 0,
+      "degree_runtime": 0,
       "export_count": 426,
       "export_raw_count": 432,
       "has_api": true,
       "color": "#ff4d4f",
-      "label": "d3d9.dll\n426 exp"
+      "label": "d3d9.dll\n426 exp",
+      "is_runtime_only": false
     },
     {
-      "id": "dw15.exe",
-      "degree": 0,
-      "export_count": 0,
-      "export_raw_count": 0,
-      "has_api": false,
-      "color": "#595959",
-      "label": "dw15.exe\n0 exp"
-    },
-    {
-      "id": "nameresources_original.dll",
-      "degree": 0,
-      "export_count": 0,
-      "export_raw_count": 0,
-      "has_api": false,
-      "color": "#595959",
-      "label": "nameresources_original.dll\n0 exp"
-    },
-    {
-      "id": "windowscodecs.dll",
+      "id": "d3dim700.dll",
+      "type": "dll",
       "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
       "export_count": 0,
       "export_raw_count": 0,
       "has_api": false,
       "color": "#595959",
-      "label": "windowscodecs.dll\n0 exp"
+      "label": "d3dim700.dll\n0 exp",
+      "is_runtime_only": true
     },
     {
-      "id": "rp8.dll",
+      "id": "dacom.dll",
+      "type": "dll",
+      "degree": 25,
+      "degree_static": 24,
+      "degree_runtime": 1,
+      "export_count": 14,
+      "export_raw_count": 15,
+      "has_api": true,
+      "color": "#fa8c16",
+      "label": "dacom.dll\n14 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "dalib.dll",
+      "type": "dll",
+      "degree": 9,
+      "degree_static": 8,
+      "degree_runtime": 1,
+      "export_count": 163,
+      "export_raw_count": 163,
+      "has_api": true,
+      "color": "#ff4d4f",
+      "label": "dalib.dll\n163 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "damageperfire.dll",
+      "type": "dll",
+      "degree": 2,
+      "degree_static": 0,
+      "degree_runtime": 2,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "damageperfire.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "dataexchange.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "dataexchange.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "davclnt.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "davclnt.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "davhlpr.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "davhlpr.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "dciman32.dll",
+      "type": "dll",
       "degree": 3,
+      "degree_static": 0,
+      "degree_runtime": 3,
       "export_count": 0,
       "export_raw_count": 0,
       "has_api": false,
       "color": "#595959",
-      "label": "rp8.dll\n0 exp"
+      "label": "dciman32.dll\n0 exp",
+      "is_runtime_only": true
     },
     {
-      "id": "wmfdist.exe",
-      "degree": 0,
-      "export_count": 0,
-      "export_raw_count": 0,
-      "has_api": false,
-      "color": "#595959",
-      "label": "wmfdist.exe\n0 exp"
-    },
-    {
-      "id": "d3d8.dll",
+      "id": "dcomp.dll",
+      "type": "dll",
       "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
       "export_count": 0,
       "export_raw_count": 0,
       "has_api": false,
       "color": "#595959",
-      "label": "d3d8.dll\n0 exp"
+      "label": "dcomp.dll\n0 exp",
+      "is_runtime_only": true
     },
     {
-      "id": "shading.dll",
-      "degree": 1,
+      "id": "ddraw.dll",
+      "type": "dll",
+      "degree": 3,
+      "degree_static": 1,
+      "degree_runtime": 2,
       "export_count": 0,
       "export_raw_count": 0,
       "has_api": false,
       "color": "#595959",
-      "label": "shading.dll\n0 exp"
-    },
-    {
-      "id": "dxwebsetup.exe",
-      "degree": 0,
-      "export_count": 0,
-      "export_raw_count": 0,
-      "has_api": false,
-      "color": "#595959",
-      "label": "dxwebsetup.exe\n0 exp"
-    },
-    {
-      "id": "freelancer.exe",
-      "degree": 6,
-      "export_count": 69,
-      "export_raw_count": 69,
-      "has_api": true,
-      "color": "#ff4d4f",
-      "label": "freelancer.exe\n69 exp"
-    },
-    {
-      "id": "sbm.dll",
-      "degree": 0,
-      "export_count": 0,
-      "export_raw_count": 0,
-      "has_api": false,
-      "color": "#595959",
-      "label": "sbm.dll\n0 exp"
-    },
-    {
-      "id": "server.dll",
-      "degree": 6,
-      "export_count": 524,
-      "export_raw_count": 524,
-      "has_api": true,
-      "color": "#ff4d4f",
-      "label": "server.dll\n524 exp"
-    },
-    {
-      "id": "engbase.dll",
-      "degree": 1,
-      "export_count": 0,
-      "export_raw_count": 0,
-      "has_api": false,
-      "color": "#595959",
-      "label": "engbase.dll\n0 exp"
-    },
-    {
-      "id": "flserver.exe",
-      "degree": 5,
-      "export_count": 71,
-      "export_raw_count": 71,
-      "has_api": true,
-      "color": "#ff4d4f",
-      "label": "flserver.exe\n71 exp"
-    },
-    {
-      "id": "luaprofile.dll",
-      "degree": 1,
-      "export_count": 0,
-      "export_raw_count": 0,
-      "has_api": false,
-      "color": "#595959",
-      "label": "luaprofile.dll\n0 exp"
-    },
-    {
-      "id": "wm9codecs.exe",
-      "degree": 0,
-      "export_count": 0,
-      "export_raw_count": 0,
-      "has_api": false,
-      "color": "#595959",
-      "label": "wm9codecs.exe\n0 exp"
-    },
-    {
-      "id": "shcore.dll",
-      "degree": 1,
-      "export_count": 0,
-      "export_raw_count": 0,
-      "has_api": false,
-      "color": "#595959",
-      "label": "shcore.dll\n0 exp"
+      "label": "ddraw.dll\n0 exp",
+      "is_runtime_only": true
     },
     {
       "id": "debuglib.dll",
+      "type": "dll",
+      "degree": 2,
+      "degree_static": 1,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "debuglib.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "deformable2.dll",
+      "type": "dll",
+      "degree": 2,
+      "degree_static": 1,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "deformable2.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "delaydisplay.dll",
+      "type": "dll",
       "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
       "export_count": 0,
       "export_raw_count": 0,
       "has_api": false,
       "color": "#595959",
-      "label": "debuglib.dll\n0 exp"
+      "label": "delaydisplay.dll\n0 exp",
+      "is_runtime_only": true
     },
     {
-      "id": "crypt32.dll",
+      "id": "devobj.dll",
+      "type": "dll",
       "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
       "export_count": 0,
       "export_raw_count": 0,
       "has_api": false,
       "color": "#595959",
-      "label": "crypt32.dll\n0 exp"
+      "label": "devobj.dll\n0 exp",
+      "is_runtime_only": true
     },
     {
-      "id": "core.dll",
-      "degree": 0,
-      "export_count": 4,
-      "export_raw_count": 4,
-      "has_api": true,
-      "color": "#fadb14",
-      "label": "core.dll\n4 exp"
-    },
-    {
-      "id": "content.dll",
-      "degree": 3,
-      "export_count": 7,
-      "export_raw_count": 7,
-      "has_api": true,
-      "color": "#fadb14",
-      "label": "content.dll\n7 exp"
-    },
-    {
-      "id": "patch.exe",
-      "degree": 0,
+      "id": "dinput8.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 1,
+      "degree_runtime": 0,
       "export_count": 0,
       "export_raw_count": 0,
       "has_api": false,
       "color": "#595959",
-      "label": "patch.exe\n0 exp"
+      "label": "dinput8.dll\n0 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "dpnet.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "dpnet.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "drprov.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "drprov.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "drvstore.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "drvstore.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "dsound.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "dsound.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "dv_cloak_sp.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "dv_cloak_sp.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "dw15.exe",
+      "type": "exe",
+      "degree": 0,
+      "degree_static": 0,
+      "degree_runtime": 0,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "dw15.exe\n0 exp",
+      "is_runtime_only": false
     },
     {
       "id": "dwintl.dll",
+      "type": "dll",
       "degree": 0,
+      "degree_static": 0,
+      "degree_runtime": 0,
       "export_count": 0,
       "export_raw_count": 0,
       "has_api": false,
       "color": "#595959",
-      "label": "dwintl.dll\n0 exp"
+      "label": "dwintl.dll\n0 exp",
+      "is_runtime_only": false
     },
     {
-      "id": "movie.dll",
+      "id": "dwmapi.dll",
+      "type": "dll",
+      "degree": 4,
+      "degree_static": 1,
+      "degree_runtime": 3,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "dwmapi.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "dxcore.dll",
+      "type": "dll",
       "degree": 1,
-      "export_count": 7,
-      "export_raw_count": 7,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "dxcore.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "dxgi.dll",
+      "type": "dll",
+      "degree": 3,
+      "degree_static": 0,
+      "degree_runtime": 3,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "dxgi.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "dxwebsetup.exe",
+      "type": "exe",
+      "degree": 0,
+      "degree_static": 0,
+      "degree_runtime": 0,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "dxwebsetup.exe\n0 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "dxwrapper.dll",
+      "type": "dll",
+      "degree": 0,
+      "degree_static": 0,
+      "degree_runtime": 0,
+      "export_count": 984,
+      "export_raw_count": 984,
       "has_api": true,
-      "color": "#fadb14",
-      "label": "movie.dll\n7 exp"
+      "color": "#ff4d4f",
+      "label": "dxwrapper.dll\n984 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "dynastex.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "dynastex.dll\n0 exp",
+      "is_runtime_only": true
     },
     {
       "id": "ebueula.dll",
+      "type": "dll",
       "degree": 0,
+      "degree_static": 0,
+      "degree_runtime": 0,
       "export_count": 1,
       "export_raw_count": 1,
       "has_api": true,
       "color": "#52c41a",
-      "label": "ebueula.dll\n1 exp"
+      "label": "ebueula.dll\n1 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "edputil.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "edputil.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "engbase-124bd.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "engbase-124bd.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "engbase.dll",
+      "type": "dll",
+      "degree": 3,
+      "degree_static": 1,
+      "degree_runtime": 2,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "engbase.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "equipdrag.dll",
+      "type": "dll",
+      "degree": 2,
+      "degree_static": 0,
+      "degree_runtime": 2,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "equipdrag.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "equipresources.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "equipresources.dll\n0 exp",
+      "is_runtime_only": true
     },
     {
       "id": "flmaterials.dll",
-      "degree": 1,
-      "export_count": 0,
-      "export_raw_count": 0,
-      "has_api": false,
-      "color": "#595959",
-      "label": "flmaterials.dll\n0 exp"
-    },
-    {
-      "id": "readfile.dll",
-      "degree": 1,
-      "export_count": 0,
-      "export_raw_count": 0,
-      "has_api": false,
-      "color": "#595959",
-      "label": "readfile.dll\n0 exp"
-    },
-    {
-      "id": "unicows.dll",
-      "degree": 0,
-      "export_count": 499,
-      "export_raw_count": 503,
-      "has_api": true,
-      "color": "#ff4d4f",
-      "label": "unicows.dll\n499 exp"
-    },
-    {
-      "id": "rpclocal.dll",
+      "type": "dll",
       "degree": 2,
-      "export_count": 113,
-      "export_raw_count": 113,
+      "degree_static": 1,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "flmaterials.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "flserver.exe",
+      "type": "exe",
+      "degree": 61,
+      "degree_static": 5,
+      "degree_runtime": 56,
+      "export_count": 71,
+      "export_raw_count": 71,
       "has_api": true,
       "color": "#ff4d4f",
-      "label": "rpclocal.dll\n113 exp"
+      "label": "flserver.exe\n71 exp",
+      "is_runtime_only": false
     },
     {
-      "id": "vcredist.exe",
-      "degree": 0,
+      "id": "flsharp.dll",
+      "type": "dll",
+      "degree": 2,
+      "degree_static": 0,
+      "degree_runtime": 2,
       "export_count": 0,
       "export_raw_count": 0,
       "has_api": false,
       "color": "#595959",
-      "label": "vcredist.exe\n0 exp"
+      "label": "flsharp.dll\n0 exp",
+      "is_runtime_only": true
     },
     {
-      "id": "wmpcdcs8.exe",
-      "degree": 0,
+      "id": "fltlib.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
       "export_count": 0,
       "export_raw_count": 0,
       "has_api": false,
       "color": "#595959",
-      "label": "wmpcdcs8.exe\n0 exp"
+      "label": "fltlib.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "freelancer.exe",
+      "type": "exe",
+      "degree": 122,
+      "degree_static": 6,
+      "degree_runtime": 116,
+      "export_count": 69,
+      "export_raw_count": 69,
+      "has_api": true,
+      "color": "#ff4d4f",
+      "label": "freelancer.exe\n69 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "getcollisions.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "getcollisions.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "getroot.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "getroot.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "gpapi.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "gpapi.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "gundll.dll",
+      "type": "dll",
+      "degree": 0,
+      "degree_static": 0,
+      "degree_runtime": 0,
+      "export_count": 4,
+      "export_raw_count": 4,
+      "has_api": true,
+      "color": "#fadb14",
+      "label": "gundll.dll\n4 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "hail.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "hail.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "healing.dll",
+      "type": "dll",
+      "degree": 2,
+      "degree_static": 0,
+      "degree_runtime": 2,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "healing.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "hid.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "hid.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "hud.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 1,
+      "export_raw_count": 1,
+      "has_api": true,
+      "color": "#52c41a",
+      "label": "hud.dll\n1 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "hudauthorbtn.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "hudauthorbtn.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "hudfacility.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "hudfacility.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "hudshift.dll",
+      "type": "dll",
+      "degree": 2,
+      "degree_static": 1,
+      "degree_runtime": 1,
+      "export_count": 2,
+      "export_raw_count": 2,
+      "has_api": true,
+      "color": "#52c41a",
+      "label": "hudshift.dll\n2 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "hudship.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "hudship.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "hudweapongroups.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "hudweapongroups.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "iconcodecservice.dll",
+      "type": "dll",
+      "degree": 2,
+      "degree_static": 0,
+      "degree_runtime": 2,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "iconcodecservice.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "iertutil.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "iertutil.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "imaadp32.acm",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "imaadp32.acm\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "imagehlp.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "imagehlp.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "imeui.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 1,
+      "degree_runtime": 0,
+      "export_count": 85,
+      "export_raw_count": 85,
+      "has_api": true,
+      "color": "#ff4d4f",
+      "label": "imeui.dll\n85 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "infocards.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "infocards.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "inputhost.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "inputhost.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "jflp.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "jflp.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "jflpac.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "jflpac.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "kernel.appcore.dll",
+      "type": "dll",
+      "degree": 4,
+      "degree_static": 0,
+      "degree_runtime": 4,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "kernel.appcore.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "l3codeca.acm",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "l3codeca.acm\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "lanespeed.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "lanespeed.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "lightingbugfix.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "lightingbugfix.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "luaprofile.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 1,
+      "degree_runtime": 0,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "luaprofile.dll\n0 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "misctext.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "misctext.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "misctextinfo2.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "misctextinfo2.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "moors.dll",
+      "type": "dll",
+      "degree": 2,
+      "degree_static": 0,
+      "degree_runtime": 2,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "moors.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "movie.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 1,
+      "degree_runtime": 0,
+      "export_count": 7,
+      "export_raw_count": 7,
+      "has_api": true,
+      "color": "#fadb14",
+      "label": "movie.dll\n7 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "mp3codec.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "mp3codec.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "mprep.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "mprep.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "msadp32.acm",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "msadp32.acm\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "msasn1.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "msasn1.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "msg711.acm",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "msg711.acm\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "msgsm32.acm",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "msgsm32.acm\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "msls31.dll",
+      "type": "dll",
+      "degree": 2,
+      "degree_static": 0,
+      "degree_runtime": 2,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "msls31.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "msvcp140.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "msvcp140.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "multicruise.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "multicruise.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "multiintro.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "multiintro.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "multirepair.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 1,
+      "degree_runtime": 0,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "multirepair.dll\n0 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "multiuniverse.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "multiuniverse.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "nameresources.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "nameresources.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "nameresources_original.dll",
+      "type": "dll",
+      "degree": 0,
+      "degree_static": 0,
+      "degree_runtime": 0,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "nameresources_original.dll\n0 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "netapi32.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "netapi32.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "netutils.dll",
+      "type": "dll",
+      "degree": 2,
+      "degree_static": 0,
+      "degree_runtime": 2,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "netutils.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "networkexplorer.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "networkexplorer.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "nonavmap.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "nonavmap.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "ntlanman.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "ntlanman.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "ntmarta.dll",
+      "type": "dll",
+      "degree": 3,
+      "degree_static": 0,
+      "degree_runtime": 3,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "ntmarta.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "numeric.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "numeric.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "nvd3dum.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "nvd3dum.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "nvgpucomp32.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "nvgpucomp32.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "nvldumd.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "nvldumd.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "nvmemmapstorage.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "nvmemmapstorage.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "nvppe.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "nvppe.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "nvspcap.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "nvspcap.dll\n0 exp",
+      "is_runtime_only": true
     },
     {
       "id": "offerbriberesources.dll",
-      "degree": 0,
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
       "export_count": 0,
       "export_raw_count": 0,
       "has_api": false,
       "color": "#595959",
-      "label": "offerbriberesources.dll\n0 exp"
+      "label": "offerbriberesources.dll\n0 exp",
+      "is_runtime_only": true
     },
     {
-      "id": "x86math.dll",
+      "id": "onecorecommonproxystub.dll",
+      "type": "dll",
       "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
       "export_count": 0,
       "export_raw_count": 0,
       "has_api": false,
       "color": "#595959",
-      "label": "x86math.dll\n0 exp"
+      "label": "onecorecommonproxystub.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "onecoreuapcommonproxystub.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "onecoreuapcommonproxystub.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "p9np.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "p9np.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "patch.exe",
+      "type": "exe",
+      "degree": 0,
+      "degree_static": 0,
+      "degree_runtime": 0,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "patch.exe\n0 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "persistentdestructibles.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "persistentdestructibles.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "powrprof.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "powrprof.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "priceofdeath.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "priceofdeath.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "profapi.dll",
+      "type": "dll",
+      "degree": 3,
+      "degree_static": 0,
+      "degree_runtime": 3,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "profapi.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "propsys.dll",
+      "type": "dll",
+      "degree": 2,
+      "degree_static": 0,
+      "degree_runtime": 2,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "propsys.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "randommusic.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "randommusic.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "ranks.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "ranks.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "readfile.dll",
+      "type": "dll",
+      "degree": 3,
+      "degree_static": 1,
+      "degree_runtime": 2,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "readfile.dll\n0 exp",
+      "is_runtime_only": true
     },
     {
       "id": "remoteclient.dll",
-      "degree": 5,
+      "type": "dll",
+      "degree": 6,
+      "degree_static": 5,
+      "degree_runtime": 1,
       "export_count": 37,
       "export_raw_count": 37,
       "has_api": true,
       "color": "#ff4d4f",
-      "label": "remoteclient.dll\n37 exp"
+      "label": "remoteclient.dll\n37 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "remoteserver.dll",
+      "type": "dll",
+      "degree": 5,
+      "degree_static": 2,
+      "degree_runtime": 3,
+      "export_count": 125,
+      "export_raw_count": 125,
+      "has_api": true,
+      "color": "#ff4d4f",
+      "label": "remoteserver.dll\n125 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "rendcomp.dll",
+      "type": "dll",
+      "degree": 3,
+      "degree_static": 1,
+      "degree_runtime": 2,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "rendcomp.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "resourcepolicyclient.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "resourcepolicyclient.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "resources.dll",
+      "type": "dll",
+      "degree": 2,
+      "degree_static": 0,
+      "degree_runtime": 2,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "resources.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "riched32.dll",
+      "type": "dll",
+      "degree": 2,
+      "degree_static": 0,
+      "degree_runtime": 2,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "riched32.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "rp8.dll",
+      "type": "dll",
+      "degree": 10,
+      "degree_static": 3,
+      "degree_runtime": 7,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "rp8.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "rpclocal.dll",
+      "type": "dll",
+      "degree": 4,
+      "degree_static": 2,
+      "degree_runtime": 2,
+      "export_count": 113,
+      "export_raw_count": 113,
+      "has_api": true,
+      "color": "#ff4d4f",
+      "label": "rpclocal.dll\n113 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "rsaenh.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "rsaenh.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "sbm.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "sbm.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "sbm2.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "sbm2.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "sbm3.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "sbm3.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "scroller.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "scroller.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "server.dll",
+      "type": "dll",
+      "degree": 8,
+      "degree_static": 6,
+      "degree_runtime": 2,
+      "export_count": 524,
+      "export_raw_count": 524,
+      "has_api": true,
+      "color": "#ff4d4f",
+      "label": "server.dll\n524 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "serverresources.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "serverresources.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "setupapi.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "setupapi.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "shading.dll",
+      "type": "dll",
+      "degree": 3,
+      "degree_static": 1,
+      "degree_runtime": 2,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "shading.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "shipclass.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "shipclass.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "slc.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "slc.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "soundmanager.dll",
+      "type": "dll",
+      "degree": 2,
+      "degree_static": 1,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "soundmanager.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "soundstreamer.dll",
+      "type": "dll",
+      "degree": 2,
+      "degree_static": 1,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "soundstreamer.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "sppc.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "sppc.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "srvcli.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "srvcli.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "sspicli.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "sspicli.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "storyfactions.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "storyfactions.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "stringcache.dll",
+      "type": "dll",
+      "degree": 2,
+      "degree_static": 0,
+      "degree_runtime": 2,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "stringcache.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "system.dll",
+      "type": "dll",
+      "degree": 3,
+      "degree_static": 1,
+      "degree_runtime": 2,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "system.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "territory.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "territory.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "territorymp.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "territorymp.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "textshaping.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "textshaping.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "thorn.dll",
+      "type": "dll",
+      "degree": 3,
+      "degree_static": 1,
+      "degree_runtime": 2,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "thorn.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "turretzoom.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "turretzoom.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "twinapi.appcore.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "twinapi.appcore.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "umpdc.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "umpdc.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "unicows.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 499,
+      "export_raw_count": 503,
+      "has_api": true,
+      "color": "#ff4d4f",
+      "label": "unicows.dll\n499 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "unins000.exe",
+      "type": "exe",
+      "degree": 41,
+      "degree_static": 6,
+      "degree_runtime": 35,
+      "export_count": 2,
+      "export_raw_count": 2,
+      "has_api": true,
+      "color": "#52c41a",
+      "label": "unins000.exe\n2 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "urlmon.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "urlmon.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "userenv.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "userenv.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "uxtheme.dll",
+      "type": "dll",
+      "degree": 3,
+      "degree_static": 1,
+      "degree_runtime": 2,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "uxtheme.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "vcredist.exe",
+      "type": "exe",
+      "degree": 0,
+      "degree_static": 0,
+      "degree_runtime": 0,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "vcredist.exe\n0 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "wheelscroll.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "wheelscroll.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "windows.fileexplorer.common.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "windows.fileexplorer.common.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "windows.staterepositoryps.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "windows.staterepositoryps.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "windowscodecs.dll",
+      "type": "dll",
+      "degree": 2,
+      "degree_static": 1,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "windowscodecs.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "winhttp.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 1,
+      "degree_runtime": 0,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "winhttp.dll\n0 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "winspool.drv",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "winspool.drv\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "winsta.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "winsta.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "wintrust.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "wintrust.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "wldp.dll",
+      "type": "dll",
+      "degree": 3,
+      "degree_static": 0,
+      "degree_runtime": 3,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "wldp.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "wm9codecs.exe",
+      "type": "exe",
+      "degree": 0,
+      "degree_static": 0,
+      "degree_runtime": 0,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "wm9codecs.exe\n0 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "wmfdist.exe",
+      "type": "exe",
+      "degree": 0,
+      "degree_static": 0,
+      "degree_runtime": 0,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "wmfdist.exe\n0 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "wmpcdcs8.exe",
+      "type": "exe",
+      "degree": 0,
+      "degree_static": 0,
+      "degree_runtime": 0,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "wmpcdcs8.exe\n0 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "wtsapi32.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 1,
+      "degree_runtime": 0,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "wtsapi32.dll\n0 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "x86math.dll",
+      "type": "dll",
+      "degree": 3,
+      "degree_static": 1,
+      "degree_runtime": 2,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "x86math.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "ximage.dll",
+      "type": "dll",
+      "degree": 2,
+      "degree_static": 1,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "ximage.dll\n0 exp",
+      "is_runtime_only": true
+    },
+    {
+      "id": "zlib.dll",
+      "type": "dll",
+      "degree": 8,
+      "degree_static": 1,
+      "degree_runtime": 7,
+      "export_count": 65,
+      "export_raw_count": 65,
+      "has_api": true,
+      "color": "#ff4d4f",
+      "label": "zlib.dll\n65 exp",
+      "is_runtime_only": false
+    },
+    {
+      "id": "zone.dll",
+      "type": "dll",
+      "degree": 1,
+      "degree_static": 0,
+      "degree_runtime": 1,
+      "export_count": 0,
+      "export_raw_count": 0,
+      "has_api": false,
+      "color": "#595959",
+      "label": "zone.dll\n0 exp",
+      "is_runtime_only": true
     }
   ],
   "edges": [
     {
       "source": "unins000.exe",
-      "target": "dwmapi.dll"
+      "target": "wtsapi32.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "unins000.exe",
-      "target": "winhttp.dll"
+      "target": "uxtheme.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "unins000.exe",
-      "target": "wtsapi32.dll"
+      "target": "crypt32.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "unins000.exe",
-      "target": "uxtheme.dll"
+      "target": "windowscodecs.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "unins000.exe",
-      "target": "windowscodecs.dll"
+      "target": "dwmapi.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "unins000.exe",
-      "target": "shcore.dll"
-    },
-    {
-      "source": "unins000.exe",
-      "target": "crypt32.dll"
+      "target": "winhttp.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "content.dll",
-      "target": "dacom.dll"
+      "target": "server.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "content.dll",
-      "target": "common.dll"
+      "target": "common.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "content.dll",
-      "target": "server.dll"
+      "target": "dacom.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "hudshift.dll",
-      "target": "common.dll"
+      "target": "common.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "alchemy.dll",
-      "target": "dacom.dll"
+      "target": "dacom.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "common.dll",
-      "target": "dacom.dll"
+      "target": "dalib.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "common.dll",
-      "target": "dalib.dll"
+      "target": "dacom.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "dalib.dll",
-      "target": "dacom.dll"
+      "target": "zlib.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "dalib.dll",
-      "target": "zlib.dll"
+      "target": "dacom.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "debuglib.dll",
-      "target": "dacom.dll"
+      "target": "dacom.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "deformable2.dll",
-      "target": "dacom.dll"
+      "target": "dacom.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "engbase.dll",
-      "target": "dacom.dll"
+      "target": "dacom.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "flmaterials.dll",
-      "target": "dacom.dll"
+      "target": "dacom.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "flserver.exe",
-      "target": "dacom.dll"
+      "target": "server.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "flserver.exe",
-      "target": "common.dll"
+      "target": "remoteclient.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "flserver.exe",
-      "target": "dalib.dll"
+      "target": "common.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "flserver.exe",
-      "target": "server.dll"
+      "target": "dalib.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "flserver.exe",
-      "target": "remoteclient.dll"
+      "target": "dacom.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "freelancer.exe",
-      "target": "dacom.dll"
+      "target": "dacom.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "freelancer.exe",
-      "target": "common.dll"
+      "target": "common.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "freelancer.exe",
-      "target": "imeui.dll"
+      "target": "dinput8.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "freelancer.exe",
-      "target": "movie.dll"
+      "target": "imeui.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "freelancer.exe",
-      "target": "dinput8.dll"
+      "target": "dalib.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "freelancer.exe",
-      "target": "dalib.dll"
+      "target": "movie.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "luaprofile.dll",
-      "target": "dacom.dll"
+      "target": "dacom.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "multirepair.dll",
-      "target": "common.dll"
+      "target": "common.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "readfile.dll",
-      "target": "dacom.dll"
+      "target": "dacom.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "remoteclient.dll",
-      "target": "dacom.dll"
+      "target": "server.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "remoteclient.dll",
-      "target": "common.dll"
+      "target": "common.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "remoteclient.dll",
-      "target": "dalib.dll"
+      "target": "dalib.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "remoteclient.dll",
-      "target": "server.dll"
+      "target": "dacom.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "remoteserver.dll",
-      "target": "common.dll"
+      "target": "common.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "remoteserver.dll",
-      "target": "dalib.dll"
+      "target": "dalib.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "rendcomp.dll",
-      "target": "dacom.dll"
+      "target": "dacom.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "rp8.dll",
-      "target": "dacom.dll"
+      "target": "d3d8.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "rp8.dll",
-      "target": "d3d8.dll"
+      "target": "ddraw.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "rp8.dll",
-      "target": "ddraw.dll"
+      "target": "dacom.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "rpclocal.dll",
-      "target": "dacom.dll"
+      "target": "common.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "rpclocal.dll",
-      "target": "common.dll"
+      "target": "dacom.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "server.dll",
-      "target": "dacom.dll"
+      "target": "common.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "server.dll",
-      "target": "common.dll"
+      "target": "dalib.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "server.dll",
-      "target": "dalib.dll"
+      "target": "dacom.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "shading.dll",
-      "target": "dacom.dll"
+      "target": "dacom.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "soundmanager.dll",
-      "target": "dacom.dll"
+      "target": "dacom.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "soundstreamer.dll",
-      "target": "dacom.dll"
+      "target": "dacom.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "system.dll",
-      "target": "dacom.dll"
+      "target": "dacom.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "thorn.dll",
-      "target": "dacom.dll"
+      "target": "dacom.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "x86math.dll",
-      "target": "dacom.dll"
+      "target": "dacom.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
     },
     {
       "source": "ximage.dll",
-      "target": "dacom.dll"
+      "target": "dacom.dll",
+      "types": [
+        "static"
+      ],
+      "is_static": true,
+      "is_runtime": false
+    },
+    {
+      "source": "unins000.exe",
+      "target": "kernel.appcore.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "bcryptprimitives.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "iconcodecservice.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "winsta.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "coreuicomponents.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "ntmarta.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "wldp.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "propsys.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "clbcatq.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "profapi.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "cfgmgr32.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "apphelp.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "networkexplorer.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "p9np.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "drprov.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "ntlanman.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "davclnt.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "davhlpr.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "windows.fileexplorer.common.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "iertutil.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "netutils.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "srvcli.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "edputil.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "windows.staterepositoryps.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "urlmon.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "cldapi.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "fltlib.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "sspicli.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "appresolver.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "slc.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "userenv.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "bcp47langs.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "sppc.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "onecorecommonproxystub.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unins000.exe",
+      "target": "onecoreuapcommonproxystub.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "common.dll",
+      "target": "zlib.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "zlib.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "riched32.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "msls31.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "serverresources.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "kernel.appcore.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "bcryptprimitives.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "uxtheme.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "resources.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "textshaping.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "clbcatq.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "dataexchange.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "d3d11.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "dxgi.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "dcomp.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "twinapi.appcore.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "coreuicomponents.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "ntmarta.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "readfile.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "engbase.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "x86math.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "rendcomp.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "system.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "thorn.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "debuglib.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "rp8.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "d3d8.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "ddraw.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "dciman32.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "d3d8thk.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "dwmapi.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "shading.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "chklootvol.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "moors.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "healing.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "equipdrag.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "chatrepsrv.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "territorymp.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "damageperfire.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "criticalhit.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "engbase-124bd.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "getroot.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "getcollisions.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "priceofdeath.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "flsharp.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "stringcache.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "infocards.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "misctext.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "nameresources.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "equipresources.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "offerbriberesources.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "misctextinfo2.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "sbm2.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "sbm3.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "sbm.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "wldp.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "flserver.exe",
+      "target": "profapi.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "zlib.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "inputhost.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "coreuicomponents.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "propsys.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "bcryptprimitives.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "ntmarta.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "kernel.appcore.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "uxtheme.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "clbcatq.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "dpnet.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "cryptsp.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "rsaenh.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "riched32.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "msls31.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "resources.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "wldp.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "profapi.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "iconcodecservice.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "windowscodecs.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "readfile.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "x86math.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "engbase.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "system.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "rp8.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "ddraw.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "d3d8.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "dciman32.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "dxgi.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "dwmapi.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "d3d8thk.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "soundstreamer.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "soundmanager.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "deformable2.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "thorn.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "shading.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "rendcomp.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "alchemy.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "ximage.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "flmaterials.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "turretzoom.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "multicruise.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "lanespeed.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "cloak.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "dv_cloak_sp.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "multiintro.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "ammolimit.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "burnship.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "shipclass.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "dynastex.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "mprep.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "numeric.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "delaydisplay.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "chklootvol.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "randommusic.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "nonavmap.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "moors.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "server.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "persistentdestructibles.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "healing.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "multiuniverse.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "hudshift.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "jflp.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "scroller.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "ranks.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "msvcp140.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "storyfactions.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "territory.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "equipdrag.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "chatrep.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "zone.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "wheelscroll.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "damageperfire.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "criticalhit.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "hudfacility.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "hail.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "hudweapongroups.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "hud.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "hudship.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "netapi32.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "netutils.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "mp3codec.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "jflpac.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "console.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "lightingbugfix.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "flsharp.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "stringcache.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "hudauthorbtn.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "imaadp32.acm",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "msadp32.acm",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "msg711.acm",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "msgsm32.acm",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "l3codeca.acm",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "dsound.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "powrprof.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "umpdc.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "devobj.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "cfgmgr32.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "audioses.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "resourcepolicyclient.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "hid.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "setupapi.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "wintrust.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "crypt32.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "msasn1.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "drvstore.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "imagehlp.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "nvspcap.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "gpapi.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "nvppe.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "dxcore.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "d3dim700.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "nvldumd.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "nvgpucomp32.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "nvmemmapstorage.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "freelancer.exe",
+      "target": "nvd3dum.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "remoteclient.dll",
+      "target": "zlib.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "remoteserver.dll",
+      "target": "dacom.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "remoteserver.dll",
+      "target": "zlib.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "remoteserver.dll",
+      "target": "freelancer.exe",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "rp8.dll",
+      "target": "kernel.appcore.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "rp8.dll",
+      "target": "d3d8thk.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "rp8.dll",
+      "target": "dwmapi.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "rp8.dll",
+      "target": "dxgi.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "rp8.dll",
+      "target": "dciman32.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "rpclocal.dll",
+      "target": "dalib.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "rpclocal.dll",
+      "target": "zlib.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "server.dll",
+      "target": "zlib.dll",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
+    },
+    {
+      "source": "unicows.dll",
+      "target": "winspool.drv",
+      "types": [
+        "runtime"
+      ],
+      "is_static": false,
+      "is_runtime": true
     }
-  ]
+  ],
+  "search_index": []
 }
