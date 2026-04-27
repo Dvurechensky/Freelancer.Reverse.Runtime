@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 26 апреля 2026 09:56:13
- * Version: 1.0.28
+ * Last Updated: 27 апреля 2026 09:40:04
+ * Version: 1.0.29
  */
 
 #include "globals.h"
