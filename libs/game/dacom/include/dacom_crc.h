@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 06 мая 2026 10:28:22
- * Version: 1.0.39
+ * Last Updated: 07 мая 2026 15:25:56
+ * Version: 1.0.40
  */
 
 #ifndef DACOM_CRC_H
