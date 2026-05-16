@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 15 мая 2026 07:48:44
- * Version: 1.0.48
+ * Last Updated: 16 мая 2026 10:45:57
+ * Version: 1.0.49
  */
 
 #ifndef LOGSTREAM_H
