@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 07 июня 2026 18:20:20
- * Version: 1.0.71
+ * Last Updated: 08 июня 2026 06:51:03
+ * Version: 1.0.72
  */
 
 #ifndef EXPORTS_STDCALL_H
