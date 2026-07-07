@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 06 июля 2026 13:33:26
- * Version: 1.0.101
+ * Last Updated: 07 июля 2026 12:17:35
+ * Version: 1.0.102
  */
 
 #ifndef LOADER_H
